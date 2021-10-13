@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mateus Quintino">
+        <meta name="description" content="Site em forma de paródia ao Cyberpunk 2077 para estudo de HTML + CSS + Javascript e JQuery">
+        <meta name="robots" content="index, follow">
+
+        <title>Cyber Page in CSS</title>        
+        <link rel="stylesheet" style:"text/css" href="cyber_style.css">
+        <link rel="shortcut icon" href="imagens/cyber_icon.ico" type="image/x-icon">
+                
+    </head>
+
+
+    <body>
+        <!-- CABEÇALHO DA PÁGINA (PARTE DE CIMA) -->    
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <img src="imagens/cyber_bug_image.jfif" height="160px">                
+                </div>
+                <div id="menu">
+                    <button id="btnHome">Home</button>
+                    <button id="btnBugs">Bugs</button>                    
+                    <button id="btnReembolso" href="#">Reembolso</a>
+                    <button id="btnContato_whats" target="_blank">Contato</a>                                        
+                </div>
+            </div>
+        </header> 
+
+        <!-- DIV REFERENTE AO MENU "PRINCIPAL" -->
+        <div id="div_principal">                               
+            <h2 id="texto_titulo" >CyberBug 2000 e CSS</h2>
+                <div id= "home_texto" class="caixa_fundo_texto">                    
+                    <p>Cyberbug 2020 é uma história de bugs de mundo aberto ambientada em Bug City, uma megalópole obcecada por luxo, glamour e bugs. Você joga como V, um bug fora da lei atrás de um bug único que carrega o bug da imortalidade. Você pode personalizar bugs cibernéticos, conjunto e estilos de bugs do personagem e explorar uma vasta cidade onde os bugs definem a história e o mundo ao seu redor.</p>                   
+                </div>   
+        </div>
+        
+        <!-- DIV REFERENTE AO MENU "BUGS" -->
+        <div id="div_bugs" hidden>                
+            <h2 id="texto_titulo" >CyberBug 2000 e CSS</h2>
+                <div id="bugs_texto" class="container_bugs">            
+                    <h3>Principais Bugs encontrados até agora:</h3>    
+                    <li>Posição em T dos NPC's.</li>
+                    <li>Personagem pelado.</li>
+                    <li>Teletransporte do jogador.</li>
+                    <li>Após a morte dos inimigos, eles levantam e caem novamente.</li>
+                    <li>Câmera do Carro não muda para terceira pessoa.</li>
+                    <li>Reações no espelho não funcionam.</li>
+                    <li>Problemas de desemepenho nos consoles base.</li>
+                    <li>Física problemática quando dirigindo uma moto.</li>
+                </div>
+        </div> 
+       
+        <!-- RODAPÉ-->
+        <footer>
+            <address>
+                <p>Desenvolvido por Mateus Quintino</p>
+                <strong>Ribeirão Preto - SP</strong>
+            </address>
+            <script src="jquery.js"></script>
+            <script src="cyber_jquery.js"></script>
+        </footer>
+        
+    </body>
+
+</html>

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 180px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+h2 {    
+    font-family: Blender Pro, sans-serif;
+    font-size: 40px;                    
+    font-weight: 700;
+    line-height: .9;
+    color: black;   
+    text-align: center;         
+    letter-spacing: -2px;
+    text-transform: uppercase;    
+}
+
+h3 {
+    font-family: Blender Pro, sans-serif;
+    font-size: 26px; 
+    font-weight: 700;
+    color: black;   
+    text-align: center;         
+    letter-spacing: -2px;
+    padding: 40px;
+}
+
+li {
+    font-family: Blender Pro, sans-serif;
+    font-size: 20px; 
+    font-weight: 700;
+    color: black;   
+    text-align: left;         
+    letter-spacing: -2px;  
+}
+
+p, strong{
+    font-family: Blender Pro, sans-serif;
+}
+
+/* IDS */
+#div_principal{    
+    background-image: url(imagens/cyber_back_img.jfif);
+    background-size: 100%;
+    text-shadow: black;
+    min-height: 500px;
+    padding: 5px;
+}
+
+#div_bugs{
+    background-image: url(imagens/cyber_bugs_img.jpg);
+    background-size: 100%;
+    text-shadow: black;
+    min-height: 500px;
+    padding: 5px;
+}
+
+#logo{
+    float: left;
+    padding-top: 10px;
+}
+
+#menu{
+    float: right; 
+    margin-top: 80px;  
+}
+
+#menu a{
+    text-decoration: none;
+    color: #fcee0a;
+    text-shadow: 1px #fcee0a;
+    padding: 20px 20px;    
+}
+
+button {    
+    font-family: Blender Pro, sans-serif;
+    font-size: 20px; 
+    background-color: black;
+    color: #fcee0a;
+    border: none;
+    text-shadow: 1px #fcee0a;
+    padding: 20px 20px;    
+}
+
+button:hover{
+    font-family: Blender Pro, sans-serif;
+    font-size: 20px; 
+    background-color: #fcee0a;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer; 
+    transition: 700ms;
+}
+
+#menu a:hover{
+    font-family: Blender Pro, sans-serif;
+    font-size: 20px; 
+    background-color: #fcee0a;
+    color: black;
+    border-radius: 20px;
+    transition: 700ms;
+    cursor: pointer; 
+}
+
+/* CLASS */
+.container{
+    height: 180px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.caixa_fundo_texto{
+	background-color:rgba(0, 0, 0, 0.3);
+	padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    float: right;        
+    width: 30%;        
+    border-radius: 20px;       
+}
+
+.container_bugs{
+    float: left;
+    background-color:rgba(0, 0, 0, 0.3);
+	padding: 10px 10px 10px 10px;
+    width: 35%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;  
+    color: #fcee0a;    
+    height: 10px;
+    clear: both;
+    text-align: center;    
+    padding: 20px;
+}
+
